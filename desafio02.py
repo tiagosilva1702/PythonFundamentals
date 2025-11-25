@@ -1,16 +1,3 @@
-'''while True:
-    comando = input("Digite 'sair' para encerrar o loop: ")
-    if comando.lower() == 'sair':
-        break
-'''
-# Exemplo com continue usando for divisão por 2 para exibir apenas números ímpares
-# % 2 != 0: número par 
-for numero in range(10):
-    if numero % 2 != 0:
-        continue
-    print(numero)
-
-# Verificar se um ano é bissexto
 def eh_bissexto(ano: int) -> bool:
     """
     Retorna True se o ano for bissexto, caso contrário False.
